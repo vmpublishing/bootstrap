@@ -1,33 +1,8 @@
 {
   "name": "bootstrap",
   "version": "2.3.1",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-  "keywords": [
-    "css",
-    "js",
-    "less",
-    "mobile-first",
-    "responsive",
-    "front-end",
-    "framework",
-    "web"
-  ],
-  "homepage": "http://getbootstrap.com",
-  "main": [
-    "./docs/assets/js/bootstrap.js",
-    "./docs/assets/css/bootstrap.css"
-  ],
-  "ignore": [
-    "/.*",
-    "_config.yml",
-    "CNAME",
-    "composer.json",
-    "CONTRIBUTING.md",
-    "docs",
-    "js/tests",
-    "test-infra"
-  ],
+  "main": ["./docs/assets/js/bootstrap.js", "./docs/assets/css/bootstrap.css"],
   "dependencies": {
-    "jquery": ">= 1.9.1"
+    "jquery": ">=1.8.0 <2.1.0"
   }
 }
